@@ -14,8 +14,8 @@ class Account {
     	lastUpdated()
     }
 
-    static hasOne = [owner:Owner]
-    static hasMany = [pets:Pet, reservations:Reservation, payments:Payment]
+    //static hasOne = [owner:Owner]
+    //static hasMany = [pets:Pet, reservations:Reservation, payments:Payment]
 
     String toString() {
     	"${accountNumber} ${owner.lastName}, ${owner.firstName}    \$${balance}"
