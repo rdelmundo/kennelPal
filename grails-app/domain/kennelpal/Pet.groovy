@@ -2,13 +2,13 @@ package kennelpal
 
 class Pet {
 
-	Account account     			// 1 (Account) : Many (Pets)
+	Owner owner     			// 1 (Owner) : Many (Pets)
 	String name
 	String breed
 	Date dateOfBirth
 
     static constraints = {
-    	account()
+    	owner()
     	name(blank:false, nullable:false, size:1..25)
     	breed(maxSize:50)
     	dateOfBirth() 				// add validation, make sure in past

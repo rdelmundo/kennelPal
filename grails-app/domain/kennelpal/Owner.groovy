@@ -23,14 +23,14 @@ class Owner {
         accountBalance(min:0.00, scale:2)
     	firstName(blank:false, nullable:false, size:1..25)
     	lastName(blank:false, nullable:false, size:1..25)
-    	address()
+    	address(blank:true, nullable:true)
     	city() 
     	state() 
     	zipcode() 
     	email(email:true)
     	primaryPhone(blank:false, nullable:false) 	// add regex validator
-    	secondaryPhone() 						   	// add regex
-    	notes(maxSize:500)
+    	secondaryPhone(blank:true, nullable:true)   // add regex
+    	notes(blank:true, nullable:true, maxSize:500)
         dateCreated()
         lastUpdated()
     }
