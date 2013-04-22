@@ -4,7 +4,7 @@ package kennelpal
 class Owner {
 
     String accountNumber
-    BigDecimal accountBalance
+    BigDecimal accountBalance = 0.00
 	String firstName
 	String lastName
 	String address
@@ -24,9 +24,9 @@ class Owner {
     	firstName(blank:false, nullable:false, size:1..25)
     	lastName(blank:false, nullable:false, size:1..25)
     	address(blank:true, nullable:true)
-    	city() 
-    	state() 
-    	zipcode() 
+    	city(blank:true, nullable:true) 
+    	state(blank:true, nullable:true)
+    	zipcode(blank:true, nullable:true)
     	email(email:true)
     	primaryPhone(blank:false, nullable:false) 	// add regex validator
     	secondaryPhone(blank:true, nullable:true)   // add regex

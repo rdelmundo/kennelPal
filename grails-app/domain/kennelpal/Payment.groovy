@@ -2,12 +2,12 @@ package kennelpal
 
 class Payment {
 
-	Account account     		// 1 (Account) : Many (Payments)
+	Owner owner    		// 1 (Account) : Many (Payments)
 	BigDecimal amount
 	Date dateReceived
 
     static constraints = {
-    	account()
+    	owner()
     	amount(min:0.00, scale:2)
     	dateReceived()
     }

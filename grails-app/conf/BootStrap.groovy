@@ -1,15 +1,16 @@
 import grails.util.GrailsUtil
-import kennelpal.Owner
 import kennelpal.User
+import kennelpal.Owner
+import kennelpal.Pet
 
 
 class BootStrap {
 
     def init = { servletContext ->
 
-    	//Create Users
+    	// ****************************************** Create Users
     	def admin = new User(
-    		username:"admin0", 
+    		username:"kpadmin", 
     		password:"password", 
     		firstName:"Walt", 
     		lastName:"Phelps", 
@@ -22,7 +23,7 @@ class BootStrap {
     	}
 
     	def user = new User(
-    		username:"user00", 
+    		username:"kpuser", 
     		password:"password", 
     		firstName:"Penelope", 
     		lastName:"Rodgers", 
@@ -34,7 +35,7 @@ class BootStrap {
     		println user.errors
     	}
 
-    	//Create Owners
+    	// ****************************************** Create Owners
     	def bill = new Owner(
     		accountNumber:"00001", 
     		accountBalance:0.00,
@@ -94,6 +95,92 @@ class BootStrap {
     	if (chet.hasErrors()) {
     		println chet.errors
     	}
+
+    	// ****************************************** Create Pets
+    	def fido = new Pet(
+    		owner:bill,
+    		name:"Fido",
+    		breed:"Golden Retriever",
+    		notes:null,
+    		dateOfBirth:null
+    		)
+    	fido.save()
+
+    	if (fido.hasErrors()) {
+    		println fido.errors
+    	}
+
+    	def lucky = new Pet(
+    		owner:bill,
+    		name:"Lucky",
+    		breed:"New Foundland",
+    		notes:null,
+    		dateOfBirth:null
+    		)
+    	lucky.save()
+
+    	if (lucky.hasErrors()) {
+    		println lucky.errors
+    	}
+
+    	def buddy = new Pet(
+    		owner:bill,
+    		name:"Buddy",
+    		breed:"New Foundland",
+    		notes:null,
+    		dateOfBirth:null
+    		)
+    	buddy.save()
+
+    	if (buddy.hasErrors()) {
+    		println lucky.errors
+    	}
+
+    	def fritz = new Pet(
+    		owner:jane,
+    		name:"Fritz",
+    		breed:"Bernese Mountain Dog",
+    		notes:null,
+    		dateOfBirth:null
+    		)
+    	fritz.save()
+
+    	if (fritz.hasErrors()) {
+    		println lucky.errors
+    	}
+
+    	def franz = new Pet(
+    		owner:jane,
+    		name:"Franz",
+    		breed:"German Shepherd",
+    		notes:null,
+    		dateOfBirth:null
+    		)
+    	franz.save()
+
+    	if (franz.hasErrors()) {
+    		println lucky.errors
+    	}
+
+    	def fluffy = new Pet(
+    		owner:chet,
+    		name:"Fluffy",
+    		breed:"Shih-Tzu",
+    		notes:null,
+    		dateOfBirth:null
+    		)
+    	fluffy.save()
+
+    	if (fluffy.hasErrors()) {
+    		println lucky.errors
+    	}
+
+    	//  ****************************************** Create Rates
+    	//  ****************************************** Create Reservations
+    	//  ****************************************** Create Payments
+    	//  ****************************************** Create Contacts
+    	//  ****************************************** Create VaccinationTypes
+    	//  ****************************************** Create Vaccinations
 
     }
     def destroy = {

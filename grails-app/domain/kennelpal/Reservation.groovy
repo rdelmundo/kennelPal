@@ -2,7 +2,7 @@ package kennelpal
 
 class Reservation {
 
-	Account account
+	Owner owner
 	Pet pet
 	Rate rate
 	Date startDate
@@ -11,7 +11,7 @@ class Reservation {
 	Boolean checkedIn = false
 
     static constraints = {
-    	account()
+    	owner()
     	pet()
     	rate() 
     	startDate()         // validate in future
@@ -23,6 +23,11 @@ class Reservation {
     	sort "startDate"
     }
 
+    /*
+    Integer lengthOfReservationInDays() {
+    }
+    */
+    
     String toString() {
     	"${startDate} ${pet.name} ${account.owner.lastName}, $account.owner.firstName}"
     }
