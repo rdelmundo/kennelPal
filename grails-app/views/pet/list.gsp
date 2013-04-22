@@ -40,9 +40,9 @@
 				<g:each in="${petInstanceList}" status="i" var="petInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${petInstance.id}">${fieldValue(bean: petInstance, field: "owner")}</g:link></td>
+						<td><g:link action="show" controller="owner" id="${petInstance.owner.id}">${fieldValue(bean: petInstance, field: "owner")}</g:link></td>
 					
-						<td>${fieldValue(bean: petInstance, field: "name")}</td>
+						<td><g:link action="show" id="${petInstance.id}">${fieldValue(bean: petInstance, field: "name")}</g:link></td>
 					
 						<td>${fieldValue(bean: petInstance, field: "breed")}</td>
 					
