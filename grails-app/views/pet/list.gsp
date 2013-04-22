@@ -38,6 +38,7 @@
 				</thead>
 				<tbody>
 				<g:each in="${petInstanceList}" status="i" var="petInstance">
+
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" controller="owner" id="${petInstance.owner.id}">${fieldValue(bean: petInstance, field: "owner")}</g:link></td>
@@ -49,8 +50,8 @@
 						<td>${fieldValue(bean: petInstance, field: "notes")}</td>
 					
 						<td><g:formatDate date="${petInstance.dateOfBirth}" /></td>
-					
 					</tr>
+					
 				</g:each>
 				</tbody>
 			</table>
