@@ -11,8 +11,34 @@ class ReservationControllerTests {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        params["owner"] = new Owner(
+            accountNumber:"99999",
+            accountBalance:0.00, 
+            firstName:"Flip", 
+            lastName:"Sanders", 
+            address:"765 Hickory Lane", 
+            city:"Rochester",
+            state:"55902", 
+            zipcode:"59902",
+            email:"chet@yahoo.com", 
+            primaryPhone:"507-123-9876", 
+            secondaryPhone:null, 
+            notes:null
+            )
+        params["pet"] = new Pet(
+            name:"Champ",
+            owner:params.owner,
+            breed:"Golden Retriever",
+            notes:null,
+            dateOfBirth:null
+            )
+        params["rate"] = new Rate(
+            name:"Weekend",
+            amount:25.00
+            )
+        params["startDate"] = new Date('2013/05/01')
+        params["endDate"] = new Date('2013/05/08')
+        params["checkedIn"] = false
     }
 
     void testIndex() {
@@ -102,6 +128,8 @@ class ReservationControllerTests {
         // test invalid parameters in update
         params.id = reservation.id
         //TODO: add invalid values to params object
+
+        params.startDate = null
 
         controller.update()
 

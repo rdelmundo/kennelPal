@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.PaymentControllerTests" tests="8" time="1.193" timestamp="2013-04-23T16:02:04">
+  <properties />
+  <testcase classname="kennelpal.PaymentControllerTests" name="testIndex" time="0.544" />
+  <testcase classname="kennelpal.PaymentControllerTests" name="testList" time="0.051" />
+  <testcase classname="kennelpal.PaymentControllerTests" name="testCreate" time="0.054" />
+  <testcase classname="kennelpal.PaymentControllerTests" name="testSave" time="0.117" />
+  <testcase classname="kennelpal.PaymentControllerTests" name="testShow" time="0.057" />
+  <testcase classname="kennelpal.PaymentControllerTests" name="testEdit" time="0.093" />
+  <testcase classname="kennelpal.PaymentControllerTests" name="testUpdate" time="0.093" />
+  <testcase classname="kennelpal.PaymentControllerTests" name="testDelete" time="0.071" />
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

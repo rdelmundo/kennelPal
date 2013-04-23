@@ -11,8 +11,22 @@ class PaymentControllerTests {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        params["owner"] = new Owner(
+            accountNumber:"99999",
+            accountBalance:0.00, 
+            firstName:"Flip", 
+            lastName:"Sanders", 
+            address:"765 Hickory Lane", 
+            city:"Rochester",
+            state:"55902", 
+            zipcode:"59902",
+            email:"chet@yahoo.com", 
+            primaryPhone:"507-123-9876", 
+            secondaryPhone:null, 
+            notes:null
+            )
+        params["amount"] = 100.00
+        params["dateReceived"] = new Date('2013/04/30')
     }
 
     void testIndex() {
@@ -102,6 +116,8 @@ class PaymentControllerTests {
         // test invalid parameters in update
         params.id = payment.id
         //TODO: add invalid values to params object
+
+        params.amount = -1.00
 
         controller.update()
 

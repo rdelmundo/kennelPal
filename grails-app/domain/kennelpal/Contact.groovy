@@ -15,13 +15,13 @@ class Contact {
     	firstName(blank:false, nullable:false, size:1..25)
     	lastName(blank:false, nullable:false, size:1..25)
     	phone(blank:false, nullable:false)   // add regex validator
-    	email(email:true)
+    	email(blank:true, nullable:true, email:true)
     	role(inList:["Family", "Friend", "Veternarian", "Other"])
-    	notes(maxSize:100)
+    	notes(blank:true, nullable:true, maxSize:100)
     }
 
     static mapping = {
-    	sort "owner.lastName"
+    	sort "lastName"
     }
 
     String toString() {

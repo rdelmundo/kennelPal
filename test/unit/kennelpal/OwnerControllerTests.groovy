@@ -11,8 +11,18 @@ class OwnerControllerTests {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        params["accountNumber"] = '99999'
+        params["accountBalance"] = 0.00
+        params["firstName"] = 'Flip'
+        params["lastName"] = 'Sanders'
+        params["address"] = '765 Hickory Lane' 
+        params["city"] = 'Rochester'
+        params["state"] = '55902' 
+        params["zipcode"] = '59902'
+        params["email"] = 'chet@yahoo.com' 
+        params["primaryPhone"] = '507-123-9876' 
+        params["secondaryPhone"] = null 
+        params["notes"] = null
     }
 
     void testIndex() {
@@ -102,6 +112,7 @@ class OwnerControllerTests {
         // test invalid parameters in update
         params.id = owner.id
         //TODO: add invalid values to params object
+        params.accountBalance = -1.00
 
         controller.update()
 

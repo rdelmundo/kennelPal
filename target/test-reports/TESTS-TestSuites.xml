@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="bmanning10m2.local" id="0" name="ContactControllerTests" package="kennelpal" tests="8" time="4.441" timestamp="2013-04-23T16:01:57">
+      <properties />
+
+      <testcase classname="kennelpal.ContactControllerTests" name="testIndex" time="2.858" />
+
+      <testcase classname="kennelpal.ContactControllerTests" name="testList" time="0.59" />
+
+      <testcase classname="kennelpal.ContactControllerTests" name="testCreate" time="0.142" />
+
+      <testcase classname="kennelpal.ContactControllerTests" name="testSave" time="0.318" />
+
+      <testcase classname="kennelpal.ContactControllerTests" name="testShow" time="0.097" />
+
+      <testcase classname="kennelpal.ContactControllerTests" name="testEdit" time="0.085" />
+
+      <testcase classname="kennelpal.ContactControllerTests" name="testUpdate" time="0.122" />
+
+      <testcase classname="kennelpal.ContactControllerTests" name="testDelete" time="0.1" />
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="bmanning10m2.local" id="1" name="ContactTests" package="kennelpal" tests="1" time="0.554" timestamp="2013-04-23T16:02:02">
+      <properties />
+
+      <testcase classname="kennelpal.ContactTests" name="testSomething" time="0.375">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at kennelpal.ContactTests.testSomething(ContactTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="bmanning10m2.local" id="2" name="OwnerControllerTests" package="kennelpal" tests="8" time="1.796" timestamp="2013-04-23T16:02:02">
+      <properties />
+
+      <testcase classname="kennelpal.OwnerControllerTests" name="testIndex" time="0.948" />
+
+      <testcase classname="kennelpal.OwnerControllerTests" name="testList" time="0.083" />
+
+      <testcase classname="kennelpal.OwnerControllerTests" name="testCreate" time="0.093" />
+
+      <testcase classname="kennelpal.OwnerControllerTests" name="testSave" time="0.2" />
+
+      <testcase classname="kennelpal.OwnerControllerTests" name="testShow" time="0.093" />
+
+      <testcase classname="kennelpal.OwnerControllerTests" name="testEdit" time="0.087" />
+
+      <testcase classname="kennelpal.OwnerControllerTests" name="testUpdate" time="0.118" />
+
+      <testcase classname="kennelpal.OwnerControllerTests" name="testDelete" time="0.087" />
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="bmanning10m2.local" id="3" name="OwnerTests" package="kennelpal" tests="1" time="0.246" timestamp="2013-04-23T16:02:04">
+      <properties />
+
+      <testcase classname="kennelpal.OwnerTests" name="testSomething" time="0.138">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at kennelpal.OwnerTests.testSomething(OwnerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="bmanning10m2.local" id="4" name="PaymentControllerTests" package="kennelpal" tests="8" time="1.193" timestamp="2013-04-23T16:02:04">
+      <properties />
+
+      <testcase classname="kennelpal.PaymentControllerTests" name="testIndex" time="0.544" />
+
+      <testcase classname="kennelpal.PaymentControllerTests" name="testList" time="0.051" />
+
+      <testcase classname="kennelpal.PaymentControllerTests" name="testCreate" time="0.054" />
+
+      <testcase classname="kennelpal.PaymentControllerTests" name="testSave" time="0.117" />
+
+      <testcase classname="kennelpal.PaymentControllerTests" name="testShow" time="0.057" />
+
+      <testcase classname="kennelpal.PaymentControllerTests" name="testEdit" time="0.093" />
+
+      <testcase classname="kennelpal.PaymentControllerTests" name="testUpdate" time="0.093" />
+
+      <testcase classname="kennelpal.PaymentControllerTests" name="testDelete" time="0.071" />
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="bmanning10m2.local" id="5" name="PaymentTests" package="kennelpal" tests="1" time="0.266" timestamp="2013-04-23T16:02:05">
+      <properties />
+
+      <testcase classname="kennelpal.PaymentTests" name="testSomething" time="0.169">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at kennelpal.PaymentTests.testSomething(PaymentTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="bmanning10m2.local" id="6" name="PetControllerTests" package="kennelpal" tests="8" time="1.635" timestamp="2013-04-23T16:02:06">
+      <properties />
+
+      <testcase classname="kennelpal.PetControllerTests" name="testIndex" time="0.292" />
+
+      <testcase classname="kennelpal.PetControllerTests" name="testList" time="0.043" />
+
+      <testcase classname="kennelpal.PetControllerTests" name="testCreate" time="0.049" />
+
+      <testcase classname="kennelpal.PetControllerTests" name="testSave" time="0.07" />
+
+      <testcase classname="kennelpal.PetControllerTests" name="testShow" time="0.894" />
+
+      <testcase classname="kennelpal.PetControllerTests" name="testEdit" time="0.083" />
+
+      <testcase classname="kennelpal.PetControllerTests" name="testUpdate" time="0.075" />
+
+      <testcase classname="kennelpal.PetControllerTests" name="testDelete" time="0.053" />
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="bmanning10m2.local" id="7" name="PetTests" package="kennelpal" tests="1" time="0.336" timestamp="2013-04-23T16:02:08">
+      <properties />
+
+      <testcase classname="kennelpal.PetTests" name="testSomething" time="0.225">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at kennelpal.PetTests.testSomething(PetTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="bmanning10m2.local" id="8" name="RateControllerTests" package="kennelpal" tests="8" time="1.139" timestamp="2013-04-23T16:02:09">
+      <properties />
+
+      <testcase classname="kennelpal.RateControllerTests" name="testIndex" time="0.595" />
+
+      <testcase classname="kennelpal.RateControllerTests" name="testList" time="0.048" />
+
+      <testcase classname="kennelpal.RateControllerTests" name="testCreate" time="0.043" />
+
+      <testcase classname="kennelpal.RateControllerTests" name="testSave" time="0.067" />
+
+      <testcase classname="kennelpal.RateControllerTests" name="testShow" time="0.051" />
+
+      <testcase classname="kennelpal.RateControllerTests" name="testEdit" time="0.043" />
+
+      <testcase classname="kennelpal.RateControllerTests" name="testUpdate" time="0.152" />
+
+      <testcase classname="kennelpal.RateControllerTests" name="testDelete" time="0.058" />
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="bmanning10m2.local" id="9" name="RateTests" package="kennelpal" tests="1" time="0.31" timestamp="2013-04-23T16:02:10">
+      <properties />
+
+      <testcase classname="kennelpal.RateTests" name="testSomething" time="0.174">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at kennelpal.RateTests.testSomething(RateTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="bmanning10m2.local" id="10" name="ReservationControllerTests" package="kennelpal" tests="8" time="2.21" timestamp="2013-04-23T16:02:10">
+      <properties />
+
+      <testcase classname="kennelpal.ReservationControllerTests" name="testIndex" time="0.974" />
+
+      <testcase classname="kennelpal.ReservationControllerTests" name="testList" time="0.053" />
+
+      <testcase classname="kennelpal.ReservationControllerTests" name="testCreate" time="0.043" />
+
+      <testcase classname="kennelpal.ReservationControllerTests" name="testSave" time="0.422" />
+
+      <testcase classname="kennelpal.ReservationControllerTests" name="testShow" time="0.064" />
+
+      <testcase classname="kennelpal.ReservationControllerTests" name="testEdit" time="0.058" />
+
+      <testcase classname="kennelpal.ReservationControllerTests" name="testUpdate" time="0.081" />
+
+      <testcase classname="kennelpal.ReservationControllerTests" name="testDelete" time="0.057" />
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="bmanning10m2.local" id="11" name="ReservationTests" package="kennelpal" tests="1" time="0.259" timestamp="2013-04-23T16:02:12">
+      <properties />
+
+      <testcase classname="kennelpal.ReservationTests" name="testSomething" time="0.119">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at kennelpal.ReservationTests.testSomething(ReservationTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="bmanning10m2.local" id="12" name="UserControllerTests" package="kennelpal" tests="8" time="5.499" timestamp="2013-04-23T16:02:13">
+      <properties />
+
+      <testcase classname="kennelpal.UserControllerTests" name="testIndex" time="2.185" />
+
+      <testcase classname="kennelpal.UserControllerTests" name="testList" time="0.046" />
+
+      <testcase classname="kennelpal.UserControllerTests" name="testCreate" time="0.044" />
+
+      <testcase classname="kennelpal.UserControllerTests" name="testSave" time="0.337" />
+
+      <testcase classname="kennelpal.UserControllerTests" name="testShow" time="0.115" />
+
+      <testcase classname="kennelpal.UserControllerTests" name="testEdit" time="0.166" />
+
+      <testcase classname="kennelpal.UserControllerTests" name="testUpdate" time="2.368" />
+
+      <testcase classname="kennelpal.UserControllerTests" name="testDelete" time="0.163" />
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="bmanning10m2.local" id="13" name="UserTests" package="kennelpal" tests="1" time="0.242" timestamp="2013-04-23T16:02:19">
+      <properties />
+
+      <testcase classname="kennelpal.UserTests" name="testSomething" time="0.159">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at kennelpal.UserTests.testSomething(UserTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="bmanning10m2.local" id="14" name="VaccinationTests" package="kennelpal" tests="1" time="2.267" timestamp="2013-04-23T16:02:19">
+      <properties />
+
+      <testcase classname="kennelpal.VaccinationTests" name="testSomething" time="2.201">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at kennelpal.VaccinationTests.testSomething(VaccinationTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="bmanning10m2.local" id="15" name="VaccinationTypesTests" package="kennelpal" tests="1" time="0.128" timestamp="2013-04-23T16:02:21">
+      <properties />
+
+      <testcase classname="kennelpal.VaccinationTypesTests" name="testSomething" time="0.127">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at kennelpal.VaccinationTypesTests.testSomething(VaccinationTypesTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

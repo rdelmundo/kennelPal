@@ -11,8 +11,12 @@ class UserControllerTests {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        params["username"] = 'username'
+        params["password"] = 'password'
+        params["firstName"] = "user"
+        params["lastName"] = 'name'
+        params["role"] = 'user'
+
     }
 
     void testIndex() {
@@ -102,6 +106,8 @@ class UserControllerTests {
         // test invalid parameters in update
         params.id = user.id
         //TODO: add invalid values to params object
+
+        params.role = 'some role not in the list'
 
         controller.update()
 

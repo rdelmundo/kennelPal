@@ -11,9 +11,9 @@ class RateControllerTests {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
-    }
+        params["name"] = "Weekend"
+        params["amount"] = 25.00
+     }
 
     void testIndex() {
         controller.index()
@@ -102,6 +102,8 @@ class RateControllerTests {
         // test invalid parameters in update
         params.id = rate.id
         //TODO: add invalid values to params object
+
+        params.amount = -1.00
 
         controller.update()
 

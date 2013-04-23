@@ -11,8 +11,26 @@ class ContactControllerTests {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        params["owner"] = new Owner(
+            accountNumber:"99999",
+            accountBalance:0.00, 
+            firstName:"Flip", 
+            lastName:"Sanders", 
+            address:"765 Hickory Lane", 
+            city:"Rochester",
+            state:"55902", 
+            zipcode:"59902",
+            email:"chet@yahoo.com", 
+            primaryPhone:"507-123-9876", 
+            secondaryPhone:null, 
+            notes:null
+            )
+        params["firstName"] = 'Chuck'
+        params["lastName"] = 'Bednarik'
+        params["phone"] = '612-098-8798'
+        params["email"] = null
+        params["role"] = 'Veternarian'
+        params["notes"] = null
     }
 
     void testIndex() {
@@ -102,6 +120,7 @@ class ContactControllerTests {
         // test invalid parameters in update
         params.id = contact.id
         //TODO: add invalid values to params object
+        params.role = "Some role not inList!"
 
         controller.update()
 

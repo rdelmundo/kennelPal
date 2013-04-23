@@ -34,6 +34,8 @@
 			<br/>
 			<g:link action="list" controller="owner">Owners</g:link>
 			<br/>
+			<g:link action="list" controller="pet">Pets</g:link>
+			<br/>
 			<g:link action="list" controller="contact">Contacts</g:link>
 			<br/>
 

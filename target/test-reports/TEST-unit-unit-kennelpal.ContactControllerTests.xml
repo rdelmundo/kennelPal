@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.ContactControllerTests" tests="8" time="4.441" timestamp="2013-04-23T16:01:57">
+  <properties />
+  <testcase classname="kennelpal.ContactControllerTests" name="testIndex" time="2.858" />
+  <testcase classname="kennelpal.ContactControllerTests" name="testList" time="0.59" />
+  <testcase classname="kennelpal.ContactControllerTests" name="testCreate" time="0.142" />
+  <testcase classname="kennelpal.ContactControllerTests" name="testSave" time="0.318" />
+  <testcase classname="kennelpal.ContactControllerTests" name="testShow" time="0.097" />
+  <testcase classname="kennelpal.ContactControllerTests" name="testEdit" time="0.085" />
+  <testcase classname="kennelpal.ContactControllerTests" name="testUpdate" time="0.122" />
+  <testcase classname="kennelpal.ContactControllerTests" name="testDelete" time="0.1" />
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

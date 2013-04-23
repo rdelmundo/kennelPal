@@ -15,7 +15,7 @@ class Reservation {
     	pet()
     	rate() 
     	startDate()         // validate in future
-    	endDate()			// validate after startDate
+    	endDate()			// validate on or after startDate
     	checkedIn()
     }
 

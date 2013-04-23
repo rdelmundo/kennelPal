@@ -1,0 +1,15 @@
+Testsuite: kennelpal.ReservationTests
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.259 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 0.119 sec
+	FAILED
+junit.framework.AssertionFailedError: Implement me
+junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at kennelpal.ReservationTests.testSomething(ReservationTests.groovy:15)
+

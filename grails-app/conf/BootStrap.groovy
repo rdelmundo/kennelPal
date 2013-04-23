@@ -204,6 +204,22 @@ class BootStrap {
     	//  ****************************************** Create Reservations
     	//  ****************************************** Create Payments
     	//  ****************************************** Create Contacts
+
+        def vet = new Contact(
+            owner:bill,
+            firstName:"Chuck",
+            lastName:"Bednarik",
+            phone:"507-123-2323",
+            email:null,
+            role:"Veternarian",
+            notes:null
+            )
+        vet.save()
+
+        if (vet.hasErrors()) {
+            println vet.errors 
+        }
+
     	//  ****************************************** Create VaccinationTypes
     	//  ****************************************** Create Vaccinations
 

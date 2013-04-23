@@ -11,8 +11,24 @@ class PetControllerTests {
 
     def populateValidParams(params) {
         assert params != null
-        // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        params["name"] = 'champ'
+        params["owner"] = new Owner(
+            accountNumber:"99999",
+            accountBalance:0.00, 
+            firstName:"Flip", 
+            lastName:"Sanders", 
+            address:"765 Hickory Lane", 
+            city:"Rochester",
+            state:"55902", 
+            zipcode:"59902",
+            email:"chet@yahoo.com", 
+            primaryPhone:"507-123-9876", 
+            secondaryPhone:null, 
+            notes:null
+            )
+        params["breed"] = "Golden Retriever"
+        params["notes"] = null
+        params["dateOfBirth"] = new Date('2010/06/22')
     }
 
     void testIndex() {
@@ -102,6 +118,8 @@ class PetControllerTests {
         // test invalid parameters in update
         params.id = pet.id
         //TODO: add invalid values to params object
+
+        params.name = ""
 
         controller.update()
 

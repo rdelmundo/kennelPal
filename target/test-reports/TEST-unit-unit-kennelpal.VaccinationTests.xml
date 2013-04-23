@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="bmanning10m2.local" name="kennelpal.VaccinationTests" tests="1" time="2.267" timestamp="2013-04-23T16:02:19">
+  <properties />
+  <testcase classname="kennelpal.VaccinationTests" name="testSomething" time="2.201">
+    <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at kennelpal.VaccinationTests.testSomething(VaccinationTests.groovy:15)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>
