@@ -29,6 +29,6 @@ class Reservation {
     */
     
     String toString() {
-    	"${startDate} ${pet.name} ${account.owner.lastName}, $account.owner.firstName}"
+    	"${startDate} ${pet.name} ${owner.lastName}, $owner.firstName}"
     }
 }

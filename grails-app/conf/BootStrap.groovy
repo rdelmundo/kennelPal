@@ -2,6 +2,10 @@ import grails.util.GrailsUtil
 import kennelpal.User
 import kennelpal.Owner
 import kennelpal.Pet
+import kennelpal.Rate
+import kennelpal.Reservation
+import kennelpal.Payment
+import kennelpal.Contact 
 
 
 class BootStrap {
@@ -176,6 +180,27 @@ class BootStrap {
     	}
 
     	//  ****************************************** Create Rates
+    	def weekday = new Rate(
+    		name:"Weekday",
+    		amount:12.00
+    		)
+    	weekday.save()
+
+    	if (weekday.hasErrors()) {
+    		println weekday.errors
+    	}
+
+    	def weekend = new Rate(
+    		name:"Weekend/Holiday",
+    		amount:15.00
+    		)
+    	weekend.save()
+
+    	if (weekend.hasErrors()) {
+    		println weekend.errors
+    	}
+
+
     	//  ****************************************** Create Reservations
     	//  ****************************************** Create Payments
     	//  ****************************************** Create Contacts
