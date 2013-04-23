@@ -1,5 +1,5 @@
 Testsuite: kennelpal.UserControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 5.499 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.756 sec
 ------------- Standard Output ---------------
 --Output from testIndex--
 --Output from testList--
@@ -21,11 +21,11 @@ Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 5.499 sec
 --Output from testDelete--
 ------------- ---------------- ---------------
 
-Testcase: testIndex took 2.185 sec
-Testcase: testList took 0.046 sec
-Testcase: testCreate took 0.044 sec
-Testcase: testSave took 0.337 sec
-Testcase: testShow took 0.115 sec
-Testcase: testEdit took 0.167 sec
-Testcase: testUpdate took 2.368 sec
-Testcase: testDelete took 0.163 sec
+Testcase: testIndex took 0.263 sec
+Testcase: testList took 0.051 sec
+Testcase: testCreate took 0.055 sec
+Testcase: testSave took 0.081 sec
+Testcase: testShow took 0.067 sec
+Testcase: testEdit took 0.056 sec
+Testcase: testUpdate took 0.058 sec
+Testcase: testDelete took 0.049 sec

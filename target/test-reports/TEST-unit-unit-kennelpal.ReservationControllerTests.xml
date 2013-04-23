@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.ReservationControllerTests" tests="8" time="2.21" timestamp="2013-04-23T16:02:10">
+<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.ReservationControllerTests" tests="8" time="0.829" timestamp="2013-04-23T16:38:15">
   <properties />
-  <testcase classname="kennelpal.ReservationControllerTests" name="testIndex" time="0.974" />
-  <testcase classname="kennelpal.ReservationControllerTests" name="testList" time="0.053" />
-  <testcase classname="kennelpal.ReservationControllerTests" name="testCreate" time="0.043" />
-  <testcase classname="kennelpal.ReservationControllerTests" name="testSave" time="0.422" />
-  <testcase classname="kennelpal.ReservationControllerTests" name="testShow" time="0.064" />
-  <testcase classname="kennelpal.ReservationControllerTests" name="testEdit" time="0.058" />
-  <testcase classname="kennelpal.ReservationControllerTests" name="testUpdate" time="0.081" />
-  <testcase classname="kennelpal.ReservationControllerTests" name="testDelete" time="0.057" />
+  <testcase classname="kennelpal.ReservationControllerTests" name="testIndex" time="0.345" />
+  <testcase classname="kennelpal.ReservationControllerTests" name="testList" time="0.048" />
+  <testcase classname="kennelpal.ReservationControllerTests" name="testCreate" time="0.042" />
+  <testcase classname="kennelpal.ReservationControllerTests" name="testSave" time="0.067" />
+  <testcase classname="kennelpal.ReservationControllerTests" name="testShow" time="0.068" />
+  <testcase classname="kennelpal.ReservationControllerTests" name="testEdit" time="0.054" />
+  <testcase classname="kennelpal.ReservationControllerTests" name="testUpdate" time="0.073" />
+  <testcase classname="kennelpal.ReservationControllerTests" name="testDelete" time="0.056" />
   <system-out><![CDATA[--Output from testIndex--
 --Output from testList--
 --Output from testCreate--

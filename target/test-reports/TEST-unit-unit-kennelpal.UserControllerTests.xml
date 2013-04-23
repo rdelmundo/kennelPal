@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.UserControllerTests" tests="8" time="5.499" timestamp="2013-04-23T16:02:13">
+<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.UserControllerTests" tests="8" time="0.756" timestamp="2013-04-23T16:38:16">
   <properties />
-  <testcase classname="kennelpal.UserControllerTests" name="testIndex" time="2.185" />
-  <testcase classname="kennelpal.UserControllerTests" name="testList" time="0.046" />
-  <testcase classname="kennelpal.UserControllerTests" name="testCreate" time="0.044" />
-  <testcase classname="kennelpal.UserControllerTests" name="testSave" time="0.337" />
-  <testcase classname="kennelpal.UserControllerTests" name="testShow" time="0.115" />
-  <testcase classname="kennelpal.UserControllerTests" name="testEdit" time="0.166" />
-  <testcase classname="kennelpal.UserControllerTests" name="testUpdate" time="2.368" />
-  <testcase classname="kennelpal.UserControllerTests" name="testDelete" time="0.163" />
+  <testcase classname="kennelpal.UserControllerTests" name="testIndex" time="0.263" />
+  <testcase classname="kennelpal.UserControllerTests" name="testList" time="0.051" />
+  <testcase classname="kennelpal.UserControllerTests" name="testCreate" time="0.055" />
+  <testcase classname="kennelpal.UserControllerTests" name="testSave" time="0.081" />
+  <testcase classname="kennelpal.UserControllerTests" name="testShow" time="0.067" />
+  <testcase classname="kennelpal.UserControllerTests" name="testEdit" time="0.056" />
+  <testcase classname="kennelpal.UserControllerTests" name="testUpdate" time="0.058" />
+  <testcase classname="kennelpal.UserControllerTests" name="testDelete" time="0.049" />
   <system-out><![CDATA[--Output from testIndex--
 --Output from testList--
 --Output from testCreate--

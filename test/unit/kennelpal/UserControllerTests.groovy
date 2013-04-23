@@ -16,7 +16,6 @@ class UserControllerTests {
         params["firstName"] = "user"
         params["lastName"] = 'name'
         params["role"] = 'user'
-
     }
 
     void testIndex() {
