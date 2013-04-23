@@ -1,6 +1,11 @@
 Image sizes...
 
 kpLogoBlock... 		Overall: 850 x 250px... 	Graphic Only: 800 x 200px
+kpLogoBlockMini… 	Overall: 850 x 150px... 	Graphic Only: 800 x 100px
+
 kpAdminBar... 		Overall: 850 x 90px... 		Graphic Only: 800 x 40px
+
 kpLoginBar... 		Overall: 850 x 90px... 		Graphic Only: 800 x 40px
-kpLoginFailedBar... Overall: 850 x 90px... 		Graphic Only: 800 x 40px
+kpLoginFailedBar... 	Overall: 850 x 90px... 		Graphic Only: 800 x 40px
+
+kpFooter… 		Overall: 850 x 20px... 		Graphic Only: 800 x 20px
