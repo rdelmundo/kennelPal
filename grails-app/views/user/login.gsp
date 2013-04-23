@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
+		<meta name="layout" content="kpLogin">
 		<g:set var="entityName" value="${message(code: 'user.label', default: 'User')}" />
 		<title><g:message code="default.create.label" args="[entityName]" /></title>
 	</head>
@@ -16,7 +16,7 @@
 			<g:passwordField name = "password" value = "${user?.password}"></g:passwordField>
 		</div>
 		<br/>
-		<g:submitButton class="formButton" name="register" value="Register"></g:submitButton>
+		<g:submitButton class="formButton" name="register" value="Login"></g:submitButton>
 		</g:form>
 	</body>
 </html>
