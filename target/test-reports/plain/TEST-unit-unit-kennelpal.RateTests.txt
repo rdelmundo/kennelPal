@@ -1,5 +1,5 @@
 Testsuite: kennelpal.RateTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.448 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.222 sec
 ------------- Standard Output ---------------
 --Output from testToString--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.448 sec
 --Output from testToString--
 ------------- ---------------- ---------------
 
-Testcase: testToString took 0.232 sec
+Testcase: testToString took 0.107 sec

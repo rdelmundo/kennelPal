@@ -1,5 +1,5 @@
 Testsuite: kennelpal.ReservationTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.289 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.232 sec
 ------------- Standard Output ---------------
 --Output from testToString--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.289 sec
 --Output from testToString--
 ------------- ---------------- ---------------
 
-Testcase: testToString took 0.151 sec
+Testcase: testToString took 0.127 sec
