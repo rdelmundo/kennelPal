@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.ContactTests" tests="1" time="0.357" timestamp="2013-04-23T16:38:09">
+<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.ContactTests" tests="1" time="0.433" timestamp="2013-04-23T17:40:36">
   <properties />
-  <testcase classname="kennelpal.ContactTests" name="testToString" time="0.191" />
+  <testcase classname="kennelpal.ContactTests" name="testToString" time="0.228" />
   <system-out><![CDATA[--Output from testToString--
 ]]></system-out>
   <system-err><![CDATA[--Output from testToString--

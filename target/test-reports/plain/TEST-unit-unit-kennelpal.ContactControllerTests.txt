@@ -1,5 +1,5 @@
 Testsuite: kennelpal.ContactControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 3.703 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 4.007 sec
 ------------- Standard Output ---------------
 --Output from testIndex--
 --Output from testList--
@@ -21,11 +21,11 @@ Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 3.703 sec
 --Output from testDelete--
 ------------- ---------------- ---------------
 
-Testcase: testIndex took 2.172 sec
-Testcase: testList took 0.545 sec
-Testcase: testCreate took 0.114 sec
-Testcase: testSave took 0.325 sec
-Testcase: testShow took 0.094 sec
-Testcase: testEdit took 0.078 sec
-Testcase: testUpdate took 0.112 sec
-Testcase: testDelete took 0.087 sec
+Testcase: testIndex took 2.369 sec
+Testcase: testList took 0.66 sec
+Testcase: testCreate took 0.101 sec
+Testcase: testSave took 0.297 sec
+Testcase: testShow took 0.128 sec
+Testcase: testEdit took 0.082 sec
+Testcase: testUpdate took 0.139 sec
+Testcase: testDelete took 0.092 sec

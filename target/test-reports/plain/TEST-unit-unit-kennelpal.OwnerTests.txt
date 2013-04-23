@@ -1,15 +1,10 @@
 Testsuite: kennelpal.OwnerTests
-Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.256 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.272 sec
 ------------- Standard Output ---------------
---Output from testSomething--
+--Output from testToString--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testSomething--
+--Output from testToString--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.148 sec
-	FAILED
-junit.framework.AssertionFailedError: Implement me
-junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at kennelpal.OwnerTests.testSomething(OwnerTests.groovy:15)
-
+Testcase: testToString took 0.159 sec

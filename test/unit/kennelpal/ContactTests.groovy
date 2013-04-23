@@ -15,7 +15,7 @@ class ContactTests {
 	def mockContact
 
 	@Before
-	def void setUp() {
+	void setUp() {
 		mockContact = initMockContact()
 	}
 
@@ -24,8 +24,8 @@ class ContactTests {
     	mockContact = null
     }
 
-	def initMockContact() {
-		Contact c = new Contact(
+	Contact initMockContact() {
+		Contact tempMockContact = new Contact(
 			owner:initMockOwner(),
 			firstName:"Joe",
 			lastName:"John",
@@ -34,10 +34,10 @@ class ContactTests {
 			role:"Family",
 			notes:null
 			)
-		c
+		tempMockContact
 	}
 
-	def initMockOwner() {
+	Owner initMockOwner() {
 		Owner mockOwner = new Owner(
             accountNumber:"99999",
             accountBalance:0.00, 

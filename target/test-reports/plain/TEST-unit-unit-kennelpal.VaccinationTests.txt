@@ -1,5 +1,5 @@
 Testsuite: kennelpal.VaccinationTests
-Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.263 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.286 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,9 +7,4 @@ Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.263 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.189 sec
-	FAILED
-junit.framework.AssertionFailedError: Implement me
-junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at kennelpal.VaccinationTests.testSomething(VaccinationTests.groovy:15)
-
+Testcase: testSomething took 0.221 sec

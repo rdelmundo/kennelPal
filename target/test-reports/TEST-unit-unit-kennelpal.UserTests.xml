@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="bmanning10m2.local" name="kennelpal.UserTests" tests="1" time="0.14" timestamp="2013-04-23T16:38:17">
+<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.UserTests" tests="1" time="0.114" timestamp="2013-04-23T17:40:45">
   <properties />
-  <testcase classname="kennelpal.UserTests" name="testSomething" time="0.052">
-    <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at kennelpal.UserTests.testSomething(UserTests.groovy:15)
-</failure>
-  </testcase>
-  <system-out><![CDATA[--Output from testSomething--
+  <testcase classname="kennelpal.UserTests" name="testToString" time="0.056" />
+  <system-out><![CDATA[--Output from testToString--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testSomething--
+  <system-err><![CDATA[--Output from testToString--
 ]]></system-err>
 </testsuite>

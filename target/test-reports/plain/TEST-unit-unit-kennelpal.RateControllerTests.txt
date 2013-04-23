@@ -1,5 +1,5 @@
 Testsuite: kennelpal.RateControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.74 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.868 sec
 ------------- Standard Output ---------------
 --Output from testIndex--
 --Output from testList--
@@ -21,11 +21,11 @@ Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.74 sec
 --Output from testDelete--
 ------------- ---------------- ---------------
 
-Testcase: testIndex took 0.31 sec
-Testcase: testList took 0.041 sec
-Testcase: testCreate took 0.04 sec
-Testcase: testSave took 0.059 sec
-Testcase: testShow took 0.044 sec
-Testcase: testEdit took 0.055 sec
+Testcase: testIndex took 0.358 sec
+Testcase: testList took 0.049 sec
+Testcase: testCreate took 0.058 sec
+Testcase: testSave took 0.09 sec
+Testcase: testShow took 0.063 sec
+Testcase: testEdit took 0.048 sec
 Testcase: testUpdate took 0.054 sec
-Testcase: testDelete took 0.055 sec
+Testcase: testDelete took 0.067 sec

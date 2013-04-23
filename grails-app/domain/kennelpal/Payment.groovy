@@ -17,6 +17,6 @@ class Payment {
     }
 
     String toString() {
-    	"${account.accountNumber} ${amount} ${dateReceived}"
+    	"${owner.accountNumber} ${amount} ${dateReceived}"
     }
 }

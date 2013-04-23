@@ -11,7 +11,30 @@ import org.junit.*
 @TestFor(User)
 class UserTests {
 
-    void testSomething() {
-       fail "Implement me"
+	def mockUser
+
+	@Before
+	void setUp() {
+		mockUser = initMockUser()
+	}
+
+	@After 
+	void tearDown() {
+		mockUser = null
+	}
+
+	User initMockUser() {
+		User tempMockUser = new User(
+			username:"username",
+			password:"password",
+			firstName:"Joe",
+			lastName:"John",
+			role:"user"
+			)
+		tempMockUser
+	}
+
+    void testToString() {
+    	assertEquals("${mockUser.username}", mockUser.toString())
     }
 }

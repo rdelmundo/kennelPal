@@ -1,5 +1,5 @@
 Testsuite: kennelpal.PetControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.866 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.984 sec
 ------------- Standard Output ---------------
 --Output from testIndex--
 --Output from testList--
@@ -21,11 +21,11 @@ Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.866 sec
 --Output from testDelete--
 ------------- ---------------- ---------------
 
-Testcase: testIndex took 0.3 sec
-Testcase: testList took 0.054 sec
-Testcase: testCreate took 0.043 sec
-Testcase: testSave took 0.12 sec
-Testcase: testShow took 0.056 sec
-Testcase: testEdit took 0.056 sec
-Testcase: testUpdate took 0.093 sec
-Testcase: testDelete took 0.057 sec
+Testcase: testIndex took 0.325 sec
+Testcase: testList took 0.065 sec
+Testcase: testCreate took 0.063 sec
+Testcase: testSave took 0.086 sec
+Testcase: testShow took 0.061 sec
+Testcase: testEdit took 0.085 sec
+Testcase: testUpdate took 0.1 sec
+Testcase: testDelete took 0.106 sec

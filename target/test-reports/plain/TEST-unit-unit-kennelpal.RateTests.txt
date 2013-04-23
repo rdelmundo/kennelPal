@@ -1,15 +1,10 @@
 Testsuite: kennelpal.RateTests
-Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.245 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.448 sec
 ------------- Standard Output ---------------
---Output from testSomething--
+--Output from testToString--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testSomething--
+--Output from testToString--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.112 sec
-	FAILED
-junit.framework.AssertionFailedError: Implement me
-junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
-	at kennelpal.RateTests.testSomething(RateTests.groovy:15)
-
+Testcase: testToString took 0.232 sec

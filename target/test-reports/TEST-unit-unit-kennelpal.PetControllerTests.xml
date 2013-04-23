@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.PetControllerTests" tests="8" time="0.866" timestamp="2013-04-23T16:38:13">
+<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.PetControllerTests" tests="8" time="0.984" timestamp="2013-04-23T17:40:40">
   <properties />
-  <testcase classname="kennelpal.PetControllerTests" name="testIndex" time="0.3" />
-  <testcase classname="kennelpal.PetControllerTests" name="testList" time="0.054" />
-  <testcase classname="kennelpal.PetControllerTests" name="testCreate" time="0.043" />
-  <testcase classname="kennelpal.PetControllerTests" name="testSave" time="0.12" />
-  <testcase classname="kennelpal.PetControllerTests" name="testShow" time="0.056" />
-  <testcase classname="kennelpal.PetControllerTests" name="testEdit" time="0.055" />
-  <testcase classname="kennelpal.PetControllerTests" name="testUpdate" time="0.093" />
-  <testcase classname="kennelpal.PetControllerTests" name="testDelete" time="0.057" />
+  <testcase classname="kennelpal.PetControllerTests" name="testIndex" time="0.324" />
+  <testcase classname="kennelpal.PetControllerTests" name="testList" time="0.065" />
+  <testcase classname="kennelpal.PetControllerTests" name="testCreate" time="0.063" />
+  <testcase classname="kennelpal.PetControllerTests" name="testSave" time="0.086" />
+  <testcase classname="kennelpal.PetControllerTests" name="testShow" time="0.061" />
+  <testcase classname="kennelpal.PetControllerTests" name="testEdit" time="0.085" />
+  <testcase classname="kennelpal.PetControllerTests" name="testUpdate" time="0.1" />
+  <testcase classname="kennelpal.PetControllerTests" name="testDelete" time="0.106" />
   <system-out><![CDATA[--Output from testIndex--
 --Output from testList--
 --Output from testCreate--

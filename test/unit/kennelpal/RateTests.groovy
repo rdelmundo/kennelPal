@@ -11,7 +11,27 @@ import org.junit.*
 @TestFor(Rate)
 class RateTests {
 
-    void testSomething() {
-       fail "Implement me"
+	def mockRate
+
+	@Before
+	void setUp() {
+		mockRate = initMockRate()
+	}
+
+	@After
+	void tearDown() {
+		mockRate = null
+	}
+
+	Rate initMockRate() {
+		Rate tempMockRate = new Rate(
+			name:"Weekday",
+			amount:25.00
+			)
+		tempMockRate
+	}
+
+    void testToString() {
+    	assertEquals("${mockRate.name}, \$${mockRate.amount}", mockRate.toString())
     }
 }
