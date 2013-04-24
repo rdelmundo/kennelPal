@@ -9,6 +9,7 @@ import grails.test.mixin.*
 @Mock(Contact)
 class ContactControllerTests {
 
+    // setup mock Contact
     def populateValidParams(params) {
         assert params != null
         params["owner"] = new Owner(
@@ -33,11 +34,13 @@ class ContactControllerTests {
         params["notes"] = null
     }
 
+    // tests index action
     void testIndex() {
         controller.index()
         assert "/contact/list" == response.redirectedUrl
     }
 
+    // tests list action, 
     void testList() {
 
         def model = controller.list()
@@ -46,12 +49,14 @@ class ContactControllerTests {
         assert model.contactInstanceTotal == 0
     }
 
+    // tests create action
     void testCreate() {
         def model = controller.create()
 
         assert model.contactInstance != null
     }
 
+    // tests save action
     void testSave() {
         controller.save()
 
@@ -68,6 +73,7 @@ class ContactControllerTests {
         assert Contact.count() == 1
     }
 
+    // tests show action
     void testShow() {
         controller.show()
 
@@ -86,6 +92,7 @@ class ContactControllerTests {
         assert model.contactInstance == contact
     }
 
+    // tests edit action
     void testEdit() {
         controller.edit()
 
@@ -104,6 +111,7 @@ class ContactControllerTests {
         assert model.contactInstance == contact
     }
 
+    // tests update action
     void testUpdate() {
         controller.update()
 
@@ -150,6 +158,7 @@ class ContactControllerTests {
         assert flash.message != null
     }
 
+    // tests delete action
     void testDelete() {
         controller.delete()
         assert flash.message != null

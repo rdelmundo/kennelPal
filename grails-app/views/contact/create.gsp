@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
+		<meta name="layout" content="kpMain">
 		<g:set var="entityName" value="${message(code: 'contact.label', default: 'Contact')}" />
 		<title><g:message code="default.create.label" args="[entityName]" /></title>
 	</head>

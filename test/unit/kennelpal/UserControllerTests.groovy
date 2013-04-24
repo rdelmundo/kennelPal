@@ -9,6 +9,7 @@ import grails.test.mixin.*
 @Mock(User)
 class UserControllerTests {
 
+    // setup mock User
     def populateValidParams(params) {
         assert params != null
         params["username"] = 'username'
@@ -18,6 +19,7 @@ class UserControllerTests {
         params["role"] = 'user'
     }
 
+    // tests index action, asserts that accurate redirect occurred
     void testIndex() {
         controller.index()
         assert "/user/list" == response.redirectedUrl

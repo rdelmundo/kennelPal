@@ -9,12 +9,14 @@ import grails.test.mixin.*
 @Mock(Rate)
 class RateControllerTests {
 
+    // setup mock Rate
     def populateValidParams(params) {
         assert params != null
         params["name"] = "Weekend"
         params["amount"] = 25.00
      }
 
+    // tests index action, asserts that accurate redirect occurred
     void testIndex() {
         controller.index()
         assert "/rate/list" == response.redirectedUrl

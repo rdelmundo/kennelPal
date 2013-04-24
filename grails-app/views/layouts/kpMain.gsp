@@ -18,6 +18,9 @@
 		</div>
 		<div id = "kpAdminBar" class="divCenter">
 			<img src="${resource(dir: 'images', file: 'kpAdminBar.png')}" alt="kpAdminBar"/></a></div>
+			<g:link action="list" controller="user">Users     </g:link>
+			<g:link action="list" controller="rate">Rates</g:link>
+			<br/>
 		</div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>

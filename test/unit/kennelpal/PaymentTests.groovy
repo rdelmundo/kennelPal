@@ -12,18 +12,22 @@ import kennelpal.Owner
 @TestFor(Payment)
 class PaymentTests {
 
+	// declare mock Payment
 	def mockPayment
 
+	// initialize mock Payment before each test
 	@Before
 	void setUp() {
 		mockPayment = initMockPayment()
 	}
 
+	// set mock Payment to null after each test
 	@After
 	void tearDown() {
 		mockPayment = null
 	}
 
+	// method to setup mock Payment
 	Payment initMockPayment() {
 		Payment tempMockPayment = new Payment(
 			owner:initMockOwner(),
@@ -33,6 +37,7 @@ class PaymentTests {
 		tempMockPayment
 	}
 
+    // method to setup mock Owner
 	Owner initMockOwner() {
 		Owner mockOwner = new Owner(
             accountNumber:"99999",
@@ -51,6 +56,7 @@ class PaymentTests {
 		mockOwner
 	}
 
+	// test to see if expected string is returned
     void testToString() {
     	assertEquals("${mockPayment.owner.accountNumber} ${mockPayment.amount} ${mockPayment.dateReceived}", mockPayment.toString())
     }

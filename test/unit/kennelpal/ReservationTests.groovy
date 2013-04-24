@@ -14,18 +14,22 @@ import kennelpal.Rate
 @TestFor(Reservation)
 class ReservationTests {
 
+	// declare mock Reservation
 	def mockReservation
 
+	// initialize mock Reservation before each test
 	@Before
 	void setUp() {
 		mockReservation = initMockReservation()
 	}
 
+	// set mock Reservation to null after each test
 	@After
 	void tearDown() {
 		mockReservation = null
 	}
 
+    // method to setup mock Reservation
 	Reservation initMockReservation() {
 		Reservation tempMockReservation = new Reservation(
 			owner:initMockOwner(),
@@ -38,6 +42,7 @@ class ReservationTests {
 		tempMockReservation
 	}
 
+    // method to setup mock Owner
 	Owner initMockOwner() {
 		Owner mockOwner = new Owner(
             accountNumber:"99999",
@@ -56,6 +61,7 @@ class ReservationTests {
 		mockOwner
 	}
 
+    // method to setup mock Pet
 	Pet initMockPet() {
 		Pet mockPet = new Pet(
 			name:"Fido",
@@ -67,6 +73,7 @@ class ReservationTests {
 		mockPet
 	}
 
+    // method to setup mock Rate
 	Rate initMockRate() {
 		Rate mockRate = new Rate(
 			name:"Weekend",
@@ -75,6 +82,7 @@ class ReservationTests {
 		mockRate
 	}
 
+	// test to see if expected string is returned
     void testToString() {
     	assertEquals("${mockReservation.startDate} ${mockReservation.pet.name} ${mockReservation.owner.lastName}, ${mockReservation.owner.firstName}", mockReservation.toString())
     }

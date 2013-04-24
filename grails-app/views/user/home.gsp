@@ -21,16 +21,8 @@
 		<title>KennelPal | Home</title>
 	</head>
 	<body>
-			<p>KennelPal</p>
 			<p>Number of reservations: ${reservations.size()}</p>
 
-			<p>Admin links:</p>
-			<g:link action="list" controller="user">Users</g:link>
-			<br/>
-			<g:link action="list" controller="rate">Rates</g:link>
-			<br/>
-
-			<p>User links:</p>
 			<g:link action="list" controller="reservation">Reservations</g:link>
 			<br/>
 			<g:link action="list" controller="payment">Payments</g:link>
@@ -43,9 +35,11 @@
 			<br/>
 
 			<p>Today's Reservations:
+				<br/>
 			<g:each in="${reservations}" status = "" var="reservation">
-				<g:link action="show" controller="reservation" id="${reservation.pet.id}">${fieldValue(bean:reservation,field:"pet.name")} ${fieldValue(bean:reservation,field:"pet.owner")}
-				</g:link>	
+				<g:link action="show" controller="reservation" id="${reservation.id}">${fieldValue(bean:reservation,field:"pet.name")} ${fieldValue(bean:reservation,field:"pet.owner")}
+				</g:link>
+				<br/>	
 			</g:each>
 			</p>
 

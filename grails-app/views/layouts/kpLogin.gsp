@@ -21,7 +21,7 @@
 		</div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo">
-			<img src="${resource(dir: 'images', file: 'kpFooter.png')}" alt="kpFooter"/>
+			<img src="${resource(dir: 'images', file: 'kpFooterGray.png')}" alt="kpFooter"/>
 		</div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/>
 		</div>

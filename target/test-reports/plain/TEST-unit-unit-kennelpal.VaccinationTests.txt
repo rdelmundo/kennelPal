@@ -1,5 +1,5 @@
 Testsuite: kennelpal.VaccinationTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.224 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.297 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.224 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.16 sec
+Testcase: testSomething took 0.193 sec

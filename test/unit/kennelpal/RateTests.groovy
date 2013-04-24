@@ -11,18 +11,22 @@ import org.junit.*
 @TestFor(Rate)
 class RateTests {
 
+	// declare mock Rate
 	def mockRate
 
+	// initialize mock Rate before each test
 	@Before
 	void setUp() {
 		mockRate = initMockRate()
 	}
 
+	// set mock Rate to null after each test
 	@After
 	void tearDown() {
 		mockRate = null
 	}
 
+    // method to setup mock Rate
 	Rate initMockRate() {
 		Rate tempMockRate = new Rate(
 			name:"Weekday",
@@ -31,6 +35,7 @@ class RateTests {
 		tempMockRate
 	}
 
+	// test to see if expected string is returned
     void testToString() {
     	assertEquals("${mockRate.name}, \$${mockRate.amount}", mockRate.toString())
     }

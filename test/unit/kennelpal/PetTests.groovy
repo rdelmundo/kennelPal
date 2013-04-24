@@ -12,18 +12,22 @@ import kennelpal.Owner
 @TestFor(Pet)
 class PetTests {
 
+	// declare mock Pet
 	def mockPet
 
+	// initialize mock Pet before each test
 	@Before
 	void setUp() {
 		mockPet = initMockPet()
 	}
 
+	// set mock Pet to null after each test
 	@After
 	void tearDown() {
 		mockPet = null
 	}
 
+    // method to setup mock Pet
 	Pet initMockPet() {
 		Pet tempMockPet = new Pet(
 			name:"Fido",
@@ -35,6 +39,7 @@ class PetTests {
 		tempMockPet
 	}
 
+    // method to setup mock Owner
 	Owner initMockOwner() {
 		Owner mockOwner = new Owner(
             accountNumber:"99999",
@@ -53,6 +58,7 @@ class PetTests {
 		mockOwner
 	}
 
+	// test to see if expected string is returned
     void testToString() {
     	assertEquals("${mockPet.name}", mockPet.toString())
     }

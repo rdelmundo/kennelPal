@@ -9,6 +9,7 @@ import grails.test.mixin.*
 @Mock(Pet)
 class PetControllerTests {
 
+    // setup mock Pet
     def populateValidParams(params) {
         assert params != null
         params["name"] = 'champ'
@@ -31,6 +32,7 @@ class PetControllerTests {
         params["dateOfBirth"] = new Date('2010/06/22')
     }
 
+    // tests index action, asserts that accurate redirect occurred
     void testIndex() {
         controller.index()
         assert "/pet/list" == response.redirectedUrl

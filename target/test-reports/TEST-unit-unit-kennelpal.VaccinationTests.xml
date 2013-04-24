@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.VaccinationTests" tests="1" time="0.224" timestamp="2013-04-23T17:53:02">
+<testsuite errors="0" failures="0" hostname="bmanning10m2.local" name="kennelpal.VaccinationTests" tests="1" time="0.297" timestamp="2013-04-23T20:59:00">
   <properties />
-  <testcase classname="kennelpal.VaccinationTests" name="testSomething" time="0.16" />
+  <testcase classname="kennelpal.VaccinationTests" name="testSomething" time="0.193" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

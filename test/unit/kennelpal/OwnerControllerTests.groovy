@@ -9,6 +9,7 @@ import grails.test.mixin.*
 @Mock(Owner)
 class OwnerControllerTests {
 
+    // setup mock Owner
     def populateValidParams(params) {
         assert params != null
         params["accountNumber"] = '99999'
@@ -25,6 +26,7 @@ class OwnerControllerTests {
         params["notes"] = null
     }
 
+    // tests index action, asserts that accurate redirect occurred
     void testIndex() {
         controller.index()
         assert "/owner/list" == response.redirectedUrl

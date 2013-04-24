@@ -11,18 +11,22 @@ import org.junit.*
 @TestFor(Owner)
 class OwnerTests {
 
+    // declare mock Owner
 	def mockOwner
 
+    // initialize mock Owner before each test
 	@Before
 	void setUp() {
 		mockOwner = initMockOwner()
 	}
 
+    // set mock Owner to null after each test
 	@After
 	void tearDown() {
 		mockOwner = null
 	}
 
+    // method to setup mock Owner
 	Owner initMockOwner() {
 		Owner tempMockOwner = new Owner(
             accountNumber:"99999",
@@ -41,6 +45,7 @@ class OwnerTests {
 		tempMockOwner
 	}
 
+    // test to see if expected string is returned
     void testToString() {
     	assertEquals("${mockOwner.lastName}, ${mockOwner.firstName}  tel: ${mockOwner.primaryPhone}", mockOwner.toString())
     }

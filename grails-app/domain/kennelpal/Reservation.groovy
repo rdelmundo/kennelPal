@@ -2,23 +2,26 @@ package kennelpal
 
 class Reservation {
 
-	Owner owner
-	Pet pet
-	Rate rate
-	Date startDate
-	Date endDate
-	// Integer days		or use this instead of endDate?	
-	Boolean checkedIn = false
+    // instance variables - columns
+	Owner owner                // owner of pet that has reservation
+	Pet pet                    // pet that has reservation
+	Rate rate                  // rate for reservation
+	Date startDate             // start date of reservation
+	Date endDate               // end date of reservation
+	// Integer days		       // or use this instead of endDate?	
+	Boolean checkedIn = false  // is the pet checked in?
 
+    // define validation and constraints
     static constraints = {
-    	owner()
-    	pet()
-    	rate() 
-    	startDate()         // validate in future
-    	endDate()			// validate on or after startDate
+    	owner(blank:false, nullable:false)
+    	pet(blank:false, nullable:false)
+    	rate(blank:false, nullable:false) 
+    	startDate()                             // validate = new Date() or in future
+    	endDate()			                    // validate on or after startDate
     	checkedIn()
     }
 
+    // Define ordering for Reservation model
     static mapping = {
     	sort "startDate"
     }
@@ -28,6 +31,7 @@ class Reservation {
     }
     */
     
+    // Define string returned in reference to an instance of Reservation
     String toString() {
     	"${startDate} ${pet.name} ${owner.lastName}, ${owner.firstName}"
     }

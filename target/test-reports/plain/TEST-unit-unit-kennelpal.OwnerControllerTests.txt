@@ -1,5 +1,5 @@
 Testsuite: kennelpal.OwnerControllerTests
-Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 1.785 sec
+Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 1.653 sec
 ------------- Standard Output ---------------
 --Output from testIndex--
 --Output from testList--
@@ -21,11 +21,11 @@ Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 1.785 sec
 --Output from testDelete--
 ------------- ---------------- ---------------
 
-Testcase: testIndex took 1.041 sec
-Testcase: testList took 0.065 sec
-Testcase: testCreate took 0.074 sec
-Testcase: testSave took 0.177 sec
-Testcase: testShow took 0.07 sec
-Testcase: testEdit took 0.074 sec
-Testcase: testUpdate took 0.106 sec
-Testcase: testDelete took 0.092 sec
+Testcase: testIndex took 0.616 sec
+Testcase: testList took 0.083 sec
+Testcase: testCreate took 0.093 sec
+Testcase: testSave took 0.336 sec
+Testcase: testShow took 0.108 sec
+Testcase: testEdit took 0.078 sec
+Testcase: testUpdate took 0.127 sec
+Testcase: testDelete took 0.11 sec

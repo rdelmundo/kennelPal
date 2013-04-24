@@ -2,12 +2,14 @@ package kennelpal
 
 class User {
 
-	String username
-	String password
-    String firstName
-    String lastName
-	String role = "user"
+    // instance variables - columns
+	String username            // username for user or admin
+	String password            // password for user or admin   
+    String firstName           // first name of user or admin
+    String lastName            // last name of user or admin
+	String role = "user"       // role defines system privileges 
 
+    // define validation and constraints
     static constraints = {
     	username blank:false, nullable:false, unique:true, size:6..12 
     	password blank:false, nullable:false, password:true, size:6..12
@@ -16,10 +18,12 @@ class User {
         role inList:["user","admin"]
     }
 
+    // Define ordering for User model
     static mapping = {
     	sort "username"
     }
 
+    // Define string returned in reference to an instance of User
     String toString() {
     	"${username}"
     }

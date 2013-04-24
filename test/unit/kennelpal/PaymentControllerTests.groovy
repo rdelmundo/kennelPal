@@ -9,6 +9,7 @@ import grails.test.mixin.*
 @Mock(Payment)
 class PaymentControllerTests {
 
+    // setup mock Payment
     def populateValidParams(params) {
         assert params != null
         params["owner"] = new Owner(
@@ -29,6 +30,7 @@ class PaymentControllerTests {
         params["dateReceived"] = new Date('2013/04/30')
     }
 
+    // tests index action, asserts that accurate redirect occurred
     void testIndex() {
         controller.index()
         assert "/payment/list" == response.redirectedUrl

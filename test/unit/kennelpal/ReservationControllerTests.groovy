@@ -9,6 +9,7 @@ import grails.test.mixin.*
 @Mock(Reservation)
 class ReservationControllerTests {
 
+    // setup mock Reservation
     def populateValidParams(params) {
         assert params != null
         params["owner"] = new Owner(
@@ -41,6 +42,7 @@ class ReservationControllerTests {
         params["checkedIn"] = false
     }
 
+    // tests index action, asserts that accurate redirect occurred
     void testIndex() {
         controller.index()
         assert "/reservation/list" == response.redirectedUrl

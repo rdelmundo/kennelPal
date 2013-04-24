@@ -12,18 +12,22 @@ import kennelpal.Owner
 @TestFor(Contact)
 class ContactTests {
 
+	// declare mock Contact
 	def mockContact
 
+	// initialize mock Contact before each test
 	@Before
 	void setUp() {
 		mockContact = initMockContact()
 	}
 
+	// set mock Contact to null after each test
 	@After
     void tearDown() {
     	mockContact = null
     }
 
+    // method to setup mock Contact
 	Contact initMockContact() {
 		Contact tempMockContact = new Contact(
 			owner:initMockOwner(),
@@ -37,6 +41,7 @@ class ContactTests {
 		tempMockContact
 	}
 
+	// method to setup mock Owner
 	Owner initMockOwner() {
 		Owner mockOwner = new Owner(
             accountNumber:"99999",
@@ -55,6 +60,7 @@ class ContactTests {
 		mockOwner
 	}
 
+	// test to see if expected string is returned
     void testToString() {
     	assertEquals("${mockContact.lastName}, ${mockContact.firstName} ${mockContact.role}", mockContact.toString())
     }
