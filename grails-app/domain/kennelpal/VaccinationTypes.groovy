@@ -12,7 +12,7 @@ class VaccinationTypes {
     	name(blank:false, nullable:false, maxSize:50, unique:true)
     	description(maxSize:100);
         numberOf(blank:false, nullable:false, min:1, max:52)
-    	renewalPeriod(blank:false, nullable:false. inList:["Day(s)", "Week(s)", "Month(s)", "Year(s)"])
+    	renewalPeriod(blank:false, nullable:false, inList:["Day(s)", "Week(s)", "Month(s)", "Year(s)"])
     }
 
     // an instance of VaccinationTypes has a one to many relationship with Vaccination...
