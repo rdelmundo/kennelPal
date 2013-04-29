@@ -80,6 +80,9 @@
 		<span class="required-indicator">*</span>
 	</label>
 	<g:textField name="primaryPhone" required="" value="${ownerInstance?.primaryPhone}"/>
+	<label for="phoneExample">
+		<g:message code="phoneExample" default="Example: 555-555-5555" />
+	</label>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: ownerInstance, field: 'secondaryPhone', 'error')} ">
