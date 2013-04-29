@@ -28,10 +28,10 @@ class Owner {
     	address(blank:true, nullable:true)
     	city(blank:true, nullable:true) 
     	state(blank:true, nullable:true)
-    	zipcode(blank:true, nullable:true)
+    	zipcode(blank:true, nullable:true, matches: '\\d{5}' )
     	email(email:true)
-    	primaryPhone(blank:false, nullable:false) 	// add regex validator
-    	secondaryPhone(blank:true, nullable:true)   // add regex
+    	primaryPhone(blank:false, nullable:false, matches: '\\d{3}\\-\\d{3}\\-\\d{4}') 	// add regex validator
+    	secondaryPhone(blank:true, nullable:true, matches: '\\d{3}\\-\\d{3}\\-\\d{4}')   // add regex
     	notes(blank:true, nullable:true, maxSize:500)
         dateCreated()
         lastUpdated()
